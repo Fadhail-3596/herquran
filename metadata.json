@@ -1,0 +1,8 @@
+{
+  "name": "HERQURAN",
+  "description": "Discover Her Story. Reflect on Your Story. Platform edukasi Islam modern untuk perempuan Muslim Gen Z yang mengangkat kisah tokoh perempuan dalam Al-Qur'an.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

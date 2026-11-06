@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-arabic: 'Amiri', serif;
+
+  --color-sage-50: #F4F7F4;
+  --color-sage-100: #E7EFE9;
+  --color-sage-200: #CFDFD3;
+  --color-sage-300: #ABC4B1;
+  --color-sage-400: #7F9F86;
+  --color-sage-500: #57785F;
+  --color-sage-600: #46634D;
+  --color-sage-700: #374E3D;
+  --color-sage-800: #2C3E31;
+  --color-sage-900: #223026;
+
+  --color-cream-50: #FCFAF7;
+  --color-cream-100: #FAF7F2;
+  --color-cream-200: #F3ECE2;
+  --color-cream-300: #E8DDCF;
+  --color-cream-400: #D8C6B1;
+
+  --color-blush-50: #FDF8F9;
+  --color-blush-100: #FAECF0;
+  --color-blush-200: #F5D9E0;
+  --color-blush-300: #E9B8C5;
+  --color-blush-400: #D68FA0;
+  --color-blush-500: #C26C80;
+
+  --color-earth-50: #F8F6F4;
+  --color-earth-100: #EFEBE7;
+  --color-earth-200: #DDD5CD;
+  --color-earth-300: #C4B5A7;
+  --color-earth-400: #9E8A79;
+  --color-earth-500: #7A6555;
+  --color-earth-600: #614F42;
+  --color-earth-700: #4D3D32;
+  --color-earth-800: #3A2E25;
+  --color-earth-900: #271E18;
+}
+
+/* Base refinement */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8E2DA;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #BCCEC0;
+}
